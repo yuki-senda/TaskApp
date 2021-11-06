@@ -107,6 +107,10 @@ class MainActivity : AppCompatActivity() {
 
             listView1.adapter = mTaskAdapter
         }
+
+        search_back_button.setOnClickListener {
+            reloadListView()
+        }
     }
 
     private fun reloadListView() {

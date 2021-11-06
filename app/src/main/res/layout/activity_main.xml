@@ -18,13 +18,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="カテゴリーを入力"
-            android:layout_marginStart="50dp"/>
+            android:layout_marginStart="20dp"/>
 
         <Button
             android:id="@+id/search_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="検索" />
+
+        <Button
+            android:id="@+id/search_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一覧表示" />
     </LinearLayout>
 
         <ListView
